@@ -3,12 +3,12 @@ if (fs.existsSync('config.env')) require('dotenv').config({ path: __dirname+'/co
 
 
 //═══════[Required Variables]════════\\
-global.owner = process.env.OWNER_NUMBER.split(",")
+global.owner = process.env.08168435065.split(",")
 global.mongodb = process.env.MONGODB_URI || "mongodb+srv://malikmd:malikmd@cluster0.bfc7ce9.mongodb.net/"
 global.port= process.env.PORT || 5000
-global.email = 'akk728492@gmail.com'
+global.email = 'chiemeried321@gmail.com'
 global.github = 'https://github.com/arkhan998/MALIK-MD'
-global.location = 'Pakistan'
+global.location = 'Eungu'
 global.gurl = 'king-md.db' // add your username
 global.sudo = process.env.SUDO || '923124533358'
 global.devs = '923124533358';
@@ -17,7 +17,7 @@ global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://telegra.ph/file/dce77f7
 module.exports = {
   
   sessionName:  process.env.SESSION_ID ||  "session",
-  botname:   process.env.BOT_NAME === undefined ? 'MALIK-BOT' : process.env.BOT_NAME,
+  botname:   process.env.BOT_NAME === undefined ? 'DANE-BOT' : process.env.BOT_NAME,
   ownername: process.env.OWNER_NAME === undefined ? 'arkhan' : process.env.OWNER_NAME,
   author:  process.env.PACK_INFO === undefined ? 'bot' : process.env.PACK_INFO.split(";")[0],
   auto_read_status :  process.env.AUTO_READ_STATUS === undefined ? false : process.env.AUTO_READ_STATUS,
